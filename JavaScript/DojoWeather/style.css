@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: lightsteelblue;
+    color: white;
+    width: inherit;
+    height: 90px;
+    font-family: cursive;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list{
+    width: 400px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    width: 860px;
+    justify-content: space-between;
+    font-family: cursive;
+    margin-top: 20px;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: center;
+}
+
+select{
+    border: 2px solid black;
+    
+}
+
+.cities{
+    display: flex;
+    margin: 10px;
+    width: 860px;
+}
+
+.forecast{
+    margin: 10px;
+    background-color: lightgray;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: cursive;
+    width: 200px;
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.display-temp{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+h3{
+    font-size: 1.4em;
+}
+
+hr{
+    border-radius: 100px;
+    margin-top: 10px;
+    border: 3px solid black;
+    width: 65%;
+    background-color:  black;
+}
+
+.hightemp::after, .lowtemp::after{
+    content: "°";
+}
+
+.hightemp{
+    color: firebrick;
+}
+
+.lowtemp{
+    color: dodgerblue;
+}
+
+.cookie{
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+    border: 3px solid black;
+    font-family: cursive;
+    padding: 10px;
+    background-color: gainsboro;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+.cookiewarning p{
+    font-size: 1.1em;
+}
+
+.cookiewarning{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.cookieimg{
+    width: 60px;
+    height: 60px;
+}
+
+button{
+    background-color: lightskyblue;
+    height: 30px;
+    width: 70px;
+    font-family: cursive;
+    border: 3px solid black;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+}

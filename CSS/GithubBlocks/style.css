@@ -1,0 +1,52 @@
+.container{
+    background-color: thistle;
+    width: 800px;
+    height: 800px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.splitimage{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    justify-content: space-evenly
+}
+
+.top{
+    margin: 10px;
+    background-color: darkslategray;
+    justify-content: space-between
+}
+
+.center{
+    margin: 10px;
+    background-color: lightcoral;
+}
+
+.bottom{
+    margin: 10px;
+    background-color: palevioletred;
+}
+
+.keeptogether{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.keepbetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    text-align: center;
+    color: lightslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

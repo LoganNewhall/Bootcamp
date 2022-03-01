@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/Roboto/Roboto-Regular.ttf);
+}
+.nav-links{
+    font-family: "Roboto", serif;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    vertical-align: middle;
+}
+
+.nav-title{
+    font-family: "Roboto", serif;
+}
+
+.nav{
+    display: flex;
+    width: 900px;
+    background-color: dimgray;
+    color: white;
+    justify-content: space-between;
+    height: 80px;
+    vertical-align: middle;
+}
+
+h1{
+    color: white;
+    margin-left: 10px;
+}
+
+.btn{
+    background-color: darkturquoise;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    font-family: "Roboto", serif;
+    color: white;
+    width: 90px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    margin: 10px;
+    list-style: none;
+}

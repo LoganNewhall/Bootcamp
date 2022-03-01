@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButtonClicker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-nav">
+                <div><h1>Dojonary</h1></div>
+                <div class="search"><input type="text" placeholder="Search"></div>
+                <div><button id="LoginButton" onclick="Login('LoginButton')" class="Login">Login</button></div>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="box">
+                    <div class="inleft">
+                        <div><h2>ninja</h2></div>
+                        <div><h3>noun</h3></div>
+                        <div><p>Plural: <i>ninjas</i></p></div>
+                        <button onclick="like()"><strong>13 likes</strong></button>
+                    </div>
+                    <div class="inright">
+                        <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inleft">
+                        <div><h2>ninja</h2></div>
+                        <div><h3>noun</h3></div>
+                        <div><p>Plural: <i>ninjas</i></p></div>
+                        <button onclick="like()"><strong>37 likes</strong></button>
+                    </div>
+                    <div class="inright">
+                        <p>A <a href="">Programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="boxright">
+                    <h3 class="heading">Dojonary is defined by <strong>YOU</strong></h3>
+                    <button onclick="Definition(this)"><strong>Add Definition</strong></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

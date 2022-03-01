@@ -1,0 +1,45 @@
+.wrapper{
+    border: 3px solid black;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.likes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+button {
+    background-color: gold;
+    color: black;
+    border: 3px solid black;
+    box-shadow: 4px 4px;
+    width: 70px;
+    height: 40px;
+    font-size: 90%;
+}
+
+h2, p, button{
+    font-family: cursive;
+}
+
+.bottom {
+    font-size: 1.4em;
+}
